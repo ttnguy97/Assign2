@@ -6,6 +6,12 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Calculator cal = new Calculator();
+		cal.add(5);
+		cal.add(20);
+		cal.divide(0);
+		System.out.println(" Total = " + cal.getTotal());
+		
+		
 		
 	}
 
